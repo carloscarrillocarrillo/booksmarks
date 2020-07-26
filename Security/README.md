@@ -2,5 +2,5 @@
 
 ## User
 ### POST /user
-Crea un usuriario en el sistema
+Crea un usuario en el sistema
 
