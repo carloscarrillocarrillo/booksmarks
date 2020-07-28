@@ -31,6 +31,9 @@ export default {
     async login() {
       try{
         await auth.login(this.email, this.password)
+        auth.setUserLogged({
+          email:this.email
+        })
         this.$router.push('/')
       }catch(error){
         this.error = true
